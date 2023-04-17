@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "643db0b1f31557b6526102ad"
+  },
+  "name": "Курс Python",
+  "link": "https://www.python.org/",
+  "tags": [
+    "python"
+  ]
+}]
