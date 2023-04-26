@@ -8,7 +8,6 @@ mycol = mydb["Course"]
 mydict = {"name": "Курс Python", "link": "https://www.python.org/", "tags": ["python"]}
 
 # print(mydb.list_collection_names())
-x = mycol.insert_one(mydict)
 # db.inventory.insert_one(
 #     {
 #         "item": "canvas",

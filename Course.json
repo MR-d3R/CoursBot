@@ -1,4 +1,4 @@
-{
+[{
   "_id": {
     "$oid": "643db0b1f31557b6526102ad"
   },
@@ -6,4 +6,214 @@
   "link": "https://www.python.org/",
   "img_path": "./Курс Python/Курс Python.img",
   "desc_path": "./Курс Python/Курс Python.txt"
-}
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d6c"
+  },
+  "name": "Android-разработчик(2022)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d6d"
+  },
+  "name": "Skillbox] Юнит-экономика и метрики продукта (2021)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d6e"
+  },
+  "name": "[Skillbox и Логомашина] Дизайнер логотипа и фирменного стиля (2020)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d6f"
+  },
+  "name": "[Skillbox] 3D-моделирование в ZBrush с нуля (2022)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d70"
+  },
+  "name": "[Skillbox] Clo 3D для fashion-дизайнеров (2022)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d71"
+  },
+  "name": "[Skillbox] CRM-маркетолог (2021)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d72"
+  },
+  "name": "[Skillbox] MS Office и инструменты Google (2022)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d73"
+  },
+  "name": "[Skillbox] PowerPoint и Google Презентации (2022)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d74"
+  },
+  "name": "[Skillbox] SQL-разработчик (2020)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d75"
+  },
+  "name": "[Skillbox] [Михаил Колодочка, МАИ] Программирование дронов (2021)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d76"
+  },
+  "name": "[Skillbox] [Татьяна Жукова] Управленческий учёт (2021)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d77"
+  },
+  "name": "[Skillbox] Алгоритмы и структуры данных для разработчиков (2020)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d78"
+  },
+  "name": "[Skillbox] Аналитик данных на Python (2020)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d79"
+  },
+  "name": "[Skillbox] Веб-аналитик с нуля до Junior (2020)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d7a"
+  },
+  "name": "[Skillbox] Веб-разработчик с нуля до PRO (2020)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d7b"
+  },
+  "name": "[Skillbox] Декорирование в дизайне интерьера (2020)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d7c"
+  },
+  "name": "[Skillbox] Иллюстрация на iPad (2020)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d7d"
+  },
+  "name": "[Skillbox] Как открыть и развивать веб-студию (2018)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d7e"
+  },
+  "name": "[Skillbox] Книжная иллюстрация (2021)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d7f"
+  },
+  "name": "[Skillbox] Математика для финансистов (2021)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d80"
+  },
+  "name": "[Skillbox] Основы экономического мышления (2021)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d81"
+  },
+  "name": "[Skillbox] Покер и логическое мышление (2022)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d82"
+  },
+  "name": "[Skillbox] Продвижение ВКонтакте (Руслан Феоктистов, Николай Смирнов) (2022)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d83"
+  },
+  "name": "[Skillbox] Продуктовый маркетолог (2021)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d84"
+  },
+  "name": "[Skillbox] Профессия Soft Skills for Hard Times (2022)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d85"
+  },
+  "name": "[Skillbox] Профессия Инженер по тестированию (2022)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d86"
+  },
+  "name": "[Skillbox] Профессия Финансовый менеджер (2020)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d87"
+  },
+  "name": "[Skillbox] Профессия Экономист-финансист (2021)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d88"
+  },
+  "name": "[Skillbox] Системный аналитик с нуля (2021)",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+},{
+  "_id": {
+    "$oid": "6449805af75b8e7830d78d89"
+  },
+  "name": "[Skillbox] Фотография с нуля (2021) Катя Туркина",
+  "descr_path": ".\\NameSchool\\Skillbox\\description.txt",
+  "img_path": ".\\NameSchool\\Skillbox\\image.png"
+}]
