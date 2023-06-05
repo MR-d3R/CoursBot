@@ -1,0 +1,6 @@
+token_here.txt
+data.json
+__pycache__/
+./__pycache__
+__pycache__*
+api_key.txt
