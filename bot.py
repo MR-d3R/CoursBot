@@ -29,20 +29,26 @@ dp = Dispatcher()
 @dp.message(Command("start"))
 async def cmd_start(message: types.Message):
     await message.answer(
-        "Привет! Напиши, что хочешь сгенерировать, и получи картинку!\nНецензурные слова и слова 18+ бот не принимает."
+        "Привет! Напиши, что хочешь сгенерировать, и получи картинку!\n\nНецензурные слова и слова 18+ бот не принимает."
     )
 
 
 @dp.message()
 async def send_answer(message: types.Message):
-    user_input = message.text
-    await bot.send_message(message.from_user.id, f"Ожидайте...")
-    link = some.image_generator(user_input)
-    await bot.send_message(message.from_user.id, f"Вот ваш {user_input}, {link}")
-    await bot.send_message(
-        message.from_user.id,
-        f"Чтобы сгенерировать слюдующее изображение, пришлите слюдующий запрос)",
-    )
+    try:
+        user_input = message.text
+        await bot.send_message(message.from_user.id, f"Ожидайте...")
+        link = some.image_generator(user_input)
+        await bot.send_message(message.from_user.id, f"Вот ваш {user_input}, {link}")
+        await bot.send_message(
+            message.from_user.id,
+            f"Чтобы сгенерировать следующее изображение, пришлите слюдующий запрос)",
+        )
+    except:
+        await bot.send_message(
+            message.from_user.id,
+            f"Запрос содержит нецензурные слова... Попробуй еще раз",
+        )
 
 
 async def main():

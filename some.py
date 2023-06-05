@@ -26,13 +26,14 @@ def image_generator(user_input):
     with open(f"{file_name}.png", "wb") as file:
         file.write(image_data)
 
-    # text = os.system(f"imgur-uploader ")
     result = subprocess.run(
         ["imgur-uploader", f"{file_name}.png"], capture_output=True, text=True
     ).stdout
-    lenght = len(result)
+    length = len(result)
+
     os.remove(f"{file_name}.png")
-    return result[lenght - 33 : lenght - 1]
+
+    return result[length - 33 : length - 1]
 
 
 # s = input("Enter your text: ")
