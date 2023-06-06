@@ -2,7 +2,7 @@ import openai
 import json
 from base64 import b64decode
 import os
-import subprocess
+
 
 with open(os.path.dirname(os.path.realpath(__file__)) + "/api_key.txt") as file:
     API_KEY = file.readline().strip()
@@ -26,14 +26,9 @@ def image_generator(user_input):
     with open(f"{file_name}.png", "wb") as file:
         file.write(image_data)
 
-    result = subprocess.run(
-        ["imgur-uploader", f"{file_name}.png"], capture_output=True, text=True
-    ).stdout
-    length = len(result)
+    res_file = f"{file_name}.png"
 
-    os.remove(f"{file_name}.png")
-
-    return result[length - 33 : length - 1]
+    return res_file
 
 
 # s = input("Enter your text: ")

@@ -3,15 +3,7 @@ import logging
 import some, os
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters.command import Command
-from aiogram.enums.dice_emoji import DiceEmoji
-from aiogram.types import (
-    ReplyKeyboardRemove,
-    ReplyKeyboardMarkup,
-    KeyboardButton,
-    InlineKeyboardMarkup,
-    InlineKeyboardButton,
-)
-from aiogram.utils.keyboard import ReplyKeyboardBuilder, InlineKeyboardBuilder
+from aiogram.types import FSInputFile
 
 
 with open(os.path.dirname(os.path.realpath(__file__)) + "/token_here.txt") as file:
@@ -24,6 +16,7 @@ logging.basicConfig(level=logging.INFO)
 bot = Bot(token=f"{TOKEN}")
 # Диспетчер
 dp = Dispatcher()
+
 
 # Хэндлер на команду /start
 @dp.message(Command("start"))
@@ -38,11 +31,19 @@ async def send_answer(message: types.Message):
     try:
         user_input = message.text
         await bot.send_message(message.from_user.id, f"Ожидайте...")
-        link = some.image_generator(user_input)
-        await bot.send_message(message.from_user.id, f"Вот ваш {user_input}, {link}")
+        file_name = some.image_generator(user_input)
+        photo = FSInputFile(f"{file_name}")
+        await bot.send_photo(
+            message.from_user.id,
+            photo,
+            caption=f"Результат изображения по запросу: {user_input}",
+        )
+
+        os.remove(file_name)
+
         await bot.send_message(
             message.from_user.id,
-            f"Чтобы сгенерировать следующее изображение, пришлите слюдующий запрос)",
+            f"Чтобы сгенерировать следующее изображение, пришлите следующий запрос)",
         )
     except:
         await bot.send_message(
